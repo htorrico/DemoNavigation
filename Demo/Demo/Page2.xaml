@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo.Page2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Page2"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Go to Page 1" Clicked="Button_Clicked_1" BackgroundColor="Green"/>
+            <Button Text="Back" Clicked="Button_Clicked" BackgroundColor="Red"></Button>
+            <Button Text="BackModal" Clicked="Button_Clicked_2"  BackgroundColor="Red"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
