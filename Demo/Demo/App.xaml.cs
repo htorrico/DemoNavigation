@@ -10,7 +10,9 @@ namespace Demo
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage( new Page1());
+            //MainPage = new NavigationPage( new Page1());
+            //MainPage = new TabbedPage1();
+            MainPage = new CarouselPage1();
         }
 
         protected override void OnStart()
